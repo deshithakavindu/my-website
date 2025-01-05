@@ -1,0 +1,111 @@
+Microsoft Windows [Version 10.0.19045.4651]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\hd\Desktop\repos\ng-batch-12>dir
+ Volume in drive C has no label.
+ Volume Serial Number is F016-2712
+
+ Directory of C:\Users\hd\Desktop\repos\ng-batch-12
+
+12/01/2024  02:42 PM    <DIR>          .
+12/01/2024  02:42 PM    <DIR>          ..
+12/01/2024  02:45 PM    <DIR>          dk
+12/01/2024  02:28 PM    <DIR>          tharik
+               0 File(s)              0 bytes
+               4 Dir(s)  157,446,832,128 bytes free
+
+C:\Users\hd\Desktop\repos\ng-batch-12>git remote -v
+origin  https://github.com/deshithakavindu/ng-batch-12 (fetch)
+origin  https://github.com/deshithakavindu/ng-batch-12 (push)
+
+C:\Users\hd\Desktop\repos\ng-batch-12>git push origin
+info: please complete authentication in your browser...
+Everything up-to-date
+
+C:\Users\hd\Desktop\repos\ng-batch-12>git remote upstream https://github.com/icbt-lk/ng-batch-12
+error: unknown subcommand: `upstream'
+usage: git remote [-v | --verbose]
+   or: git remote add [-t <branch>] [-m <master>] [-f] [--tags | --no-tags] [--mirror=<fetch|push>] <name> <url>
+   or: git remote rename [--[no-]progress] <old> <new>
+   or: git remote remove <name>
+   or: git remote set-head <name> (-a | --auto | -d | --delete | <branch>)
+   or: git remote [-v | --verbose] show [-n] <name>
+   or: git remote prune [-n | --dry-run] <name>
+   or: git remote [-v | --verbose] update [-p | --prune] [(<group> | <remote>)...]
+   or: git remote set-branches [--add] <name> <branch>...
+   or: git remote get-url [--push] [--all] <name>
+   or: git remote set-url [--push] <name> <newurl> [<oldurl>]
+   or: git remote set-url --add <name> <newurl>
+   or: git remote set-url --delete <name> <url>
+
+    -v, --[no-]verbose    be verbose; must be placed before a subcommand
+
+
+C:\Users\hd\Desktop\repos\ng-batch-12>git remote add upstream https://github.com/icbt-lk/ng-batch-12
+
+C:\Users\hd\Desktop\repos\ng-batch-12>git remote -v
+origin  https://github.com/deshithakavindu/ng-batch-12 (fetch)
+origin  https://github.com/deshithakavindu/ng-batch-12 (push)
+upstream        https://github.com/icbt-lk/ng-batch-12 (fetch)
+upstream        https://github.com/icbt-lk/ng-batch-12 (push)
+
+C:\Users\hd\Desktop\repos\ng-batch-12>git push origin
+Everything up-to-date
+
+C:\Users\hd\Desktop\repos\ng-batch-12>git pull upstream main
+remote: Enumerating objects: 74, done.
+remote: Counting objects: 100% (74/74), done.
+remote: Compressing objects: 100% (51/51), done.
+remote: Total 72 (delta 16), reused 41 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (72/72), 15.77 KiB | 102.00 KiB/s, done.
+From https://github.com/icbt-lk/ng-batch-12
+ * branch            main       -> FETCH_HEAD
+ * [new branch]      main       -> upstream/main
+Updating db56350..a72cb3a
+Fast-forward
+ Akila/ReadMe.txt   | 1 +
+ Dasun/README.md    | 1 +
+ Dhanuka/README.md  | 1 +
+ Dureksha/README.md | 1 +
+ Janith/README.md   | 1 +
+ Kalmith/Readme.txt | 0
+ New/New.txt        | 1 +
+ Ravindu/README.md  | 1 +
+ Sachin/README.md   | 1 +
+ kavindu/README.md  | 1 +
+ nadila             | 1 +
+ yasitha/Readme.md  | 1 +
+ 12 files changed, 11 insertions(+)
+ create mode 100644 Akila/ReadMe.txt
+ create mode 100644 Dasun/README.md
+ create mode 100644 Dhanuka/README.md
+ create mode 100644 Dureksha/README.md
+ create mode 100644 Janith/README.md
+ create mode 100644 Kalmith/Readme.txt
+ create mode 100644 New/New.txt
+ create mode 100644 Ravindu/README.md
+ create mode 100644 Sachin/README.md
+ create mode 100644 kavindu/README.md
+ create mode 100644 nadila
+ create mode 100644 yasitha/Readme.md
+
+C:\Users\hd\Desktop\repos\ng-batch-12>git push origin
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/deshithakavindu/ng-batch-12
+   db56350..a72cb3a  main -> main
+
+C:\Users\hd\Desktop\repos\ng-batch-12>git remote -v
+origin  https://github.com/deshithakavindu/ng-batch-12 (fetch)
+origin  https://github.com/deshithakavindu/ng-batch-12 (push)
+upstream        https://github.com/icbt-lk/ng-batch-12 (fetch)
+upstream        https://github.com/icbt-lk/ng-batch-12 (push)
+
+C:\Users\hd\Desktop\repos\ng-batch-12>git pull upstream main
+From https://github.com/icbt-lk/ng-batch-12
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+
+C:\Users\hd\Desktop\repos\ng-batch-12>git push origin
+Everything up-to-date
+
+C:\Users\hd\Desktop\repos\ng-batch-12>
